@@ -1,4 +1,4 @@
-FROM python
+FROM chris060986/python-kube-client
 
 WORKDIR /app
 
