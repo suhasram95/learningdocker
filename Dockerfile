@@ -1,11 +1,7 @@
-FROM node
+FROM python:3.6
 
 WORKDIR /app
 
 COPY . /app
 
-RUN npm install
-
-EXPOSE 80
-
-CMD ["node", "server.js"]
+CMD ["python", "rng.py"]
