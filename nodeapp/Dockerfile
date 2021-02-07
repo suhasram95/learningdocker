@@ -1,4 +1,4 @@
-FROM node
+FROM yiyi/node8-mysql-s3cmd
 
 WORKDIR /app
 
